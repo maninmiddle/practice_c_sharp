@@ -1,0 +1,15 @@
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/bin/Debug/net10.0/TASK_5
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/bin/Debug/net10.0/TASK_5.deps.json
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/bin/Debug/net10.0/TASK_5.runtimeconfig.json
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/bin/Debug/net10.0/TASK_5.dll
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/bin/Debug/net10.0/TASK_5.pdb
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/obj/Debug/net10.0/TASK_5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/obj/Debug/net10.0/TASK_5.AssemblyInfoInputs.cache
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/obj/Debug/net10.0/TASK_5.AssemblyInfo.cs
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/obj/Debug/net10.0/TASK_5.csproj.CoreCompileInputs.cache
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/obj/Debug/net10.0/TASK_5.sourcelink.json
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/obj/Debug/net10.0/TASK_5.dll
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/obj/Debug/net10.0/refint/TASK_5.dll
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/obj/Debug/net10.0/TASK_5.pdb
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/obj/Debug/net10.0/TASK_5.genruntimeconfig.cache
+/Users/baeyer/dev/practice_c_sharp/PRILOZHENIE_A/TASK_5/obj/Debug/net10.0/ref/TASK_5.dll
