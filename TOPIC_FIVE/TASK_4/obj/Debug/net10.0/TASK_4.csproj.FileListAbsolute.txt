@@ -1,0 +1,15 @@
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/obj/Debug/net10.0/TASK_4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/obj/Debug/net10.0/TASK_4.AssemblyInfoInputs.cache
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/obj/Debug/net10.0/TASK_4.AssemblyInfo.cs
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/obj/Debug/net10.0/TASK_4.csproj.CoreCompileInputs.cache
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/obj/Debug/net10.0/TASK_4.sourcelink.json
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/bin/Debug/net10.0/TASK_4
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/bin/Debug/net10.0/TASK_4.deps.json
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/bin/Debug/net10.0/TASK_4.runtimeconfig.json
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/bin/Debug/net10.0/TASK_4.dll
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/bin/Debug/net10.0/TASK_4.pdb
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/obj/Debug/net10.0/TASK_4.dll
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/obj/Debug/net10.0/refint/TASK_4.dll
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/obj/Debug/net10.0/TASK_4.pdb
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/obj/Debug/net10.0/TASK_4.genruntimeconfig.cache
+/Users/baeyer/dev/practice_c_sharp/TOPIC_FIVE/TASK_4/obj/Debug/net10.0/ref/TASK_4.dll
