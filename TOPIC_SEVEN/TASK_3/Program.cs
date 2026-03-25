@@ -21,9 +21,7 @@ public class Program
         }
         catch (Exception ex) 
         {
-            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"\nПроизошла непредвиденная ошибка: {ex.Message}");
-            Console.ResetColor();
         }
 
         Console.WriteLine("\nПрограмма продолжает выполнение после проверки возрастных ограничений.");
