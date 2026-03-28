@@ -1,0 +1,15 @@
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/obj/Debug/net10.0/TOPIC_ELEVEN.GeneratedMSBuildEditorConfig.editorconfig
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/obj/Debug/net10.0/TOPIC_ELEVEN.AssemblyInfoInputs.cache
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/obj/Debug/net10.0/TOPIC_ELEVEN.AssemblyInfo.cs
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/obj/Debug/net10.0/TOPIC_ELEVEN.csproj.CoreCompileInputs.cache
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/obj/Debug/net10.0/TOPIC_ELEVEN.sourcelink.json
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/bin/Debug/net10.0/TOPIC_ELEVEN
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/bin/Debug/net10.0/TOPIC_ELEVEN.deps.json
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/bin/Debug/net10.0/TOPIC_ELEVEN.runtimeconfig.json
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/bin/Debug/net10.0/TOPIC_ELEVEN.dll
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/bin/Debug/net10.0/TOPIC_ELEVEN.pdb
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/obj/Debug/net10.0/TOPIC_ELEVEN.dll
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/obj/Debug/net10.0/refint/TOPIC_ELEVEN.dll
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/obj/Debug/net10.0/TOPIC_ELEVEN.pdb
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/obj/Debug/net10.0/TOPIC_ELEVEN.genruntimeconfig.cache
+/Users/baeyer/dev/practice_c_sharp/TOPIC_ELEVEN/TASK_1/obj/Debug/net10.0/ref/TOPIC_ELEVEN.dll
