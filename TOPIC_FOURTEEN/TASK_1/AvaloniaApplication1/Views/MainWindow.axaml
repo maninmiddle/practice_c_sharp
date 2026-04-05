@@ -1,0 +1,133 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:AvaloniaApplication1.ViewModels"
+        x:Class="AvaloniaApplication1.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Width="1100"
+        Height="650"
+        Title="АРМ работника склада"
+        RequestedThemeVariant="Light">
+
+    <Window.Styles>
+        <Style Selector="Button.addButton">
+            <Setter Property="Background" Value="#E8F5E9" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Padding" Value="12,8" />
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+    </Window.Styles>
+
+    <DockPanel Margin="10">
+
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Файл">
+                <MenuItem Header="Выход" Click="ExitMenuItem_Click" />
+            </MenuItem>
+
+            <MenuItem Header="_Склад">
+                <MenuItem Header="Добавить товар" Command="{Binding AddProductCommand}" />
+                <MenuItem Header="Редактировать товар" Command="{Binding EditProductCommand}" />
+                <MenuItem Header="Удалить товар" Click="DeleteProduct_Click" />
+            </MenuItem>
+
+            <MenuItem Header="_Настройки">
+                <MenuItem Header="Параметры" Click="Settings_Click" />
+            </MenuItem>
+        </Menu>
+
+
+        <Border DockPanel.Dock="Top" Padding="10">
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <Button Classes="addButton"
+                        Command="{Binding AddProductCommand}">
+                    <StackPanel Orientation="Horizontal" Spacing="6">
+                        <TextBlock Text="+" />
+                        <TextBlock Text="Добавить товар" />
+                    </StackPanel>
+                </Button>
+
+                <Button Content="Редактировать товар"
+                        Command="{Binding EditProductCommand}" />
+
+                <Button Content="Удалить товар"
+                        Click="DeleteProduct_Click" />
+            </StackPanel>
+        </Border>
+        <ScrollViewer VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Auto">
+            <Grid ColumnDefinitions="360,*" RowDefinitions="Auto,Auto,*" Margin="0,10,0,0">
+
+                <Border Grid.Row="0" Grid.Column="0" Padding="10" BorderBrush="Gray" BorderThickness="1">
+                    <StackPanel Spacing="8">
+                        <TextBlock Text="Данные товара" FontSize="18" FontWeight="Bold" />
+
+                        <TextBlock Text="Название товара" />
+                        <TextBox Text="{Binding ProductName, Mode=TwoWay}"
+                                 Watermark="Введите название" />
+
+                        <TextBlock Text="Количество" />
+                        <TextBox Text="{Binding ProductQuantity, Mode=TwoWay}"
+                                 Watermark="Введите количество" />
+
+                        <TextBlock Text="Цена" />
+                        <TextBox Text="{Binding ProductPrice, Mode=TwoWay}"
+                                 Watermark="Введите цену" />
+
+                        <TextBlock Text="Категория" />
+                        <ComboBox ItemsSource="{Binding Categories}"
+                                  SelectedItem="{Binding SelectedCategory, Mode=TwoWay}" />
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                        Margin="0,10,0,10"
+                        Padding="10"
+                        BorderBrush="Gray"
+                        BorderThickness="1">
+                    <StackPanel Orientation="Horizontal" Spacing="10" VerticalAlignment="Center">
+                        <TextBlock Text="Фильтр по категории:" VerticalAlignment="Center" />
+                        <ComboBox Width="220"
+                                  ItemsSource="{Binding Categories}"
+                                  SelectedItem="{Binding SelectedFilterCategory, Mode=TwoWay}" />
+                        <Button Content="Сбросить фильтр"
+                                Click="ResetFilter_Click" />
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
+                        Padding="10"
+                        BorderBrush="Gray"
+                        BorderThickness="1">
+                    <StackPanel Spacing="8">
+                        <TextBlock Text="Список товаров" FontSize="18" FontWeight="Bold" />
+
+                        <ListBox ItemsSource="{Binding FilteredProducts}"
+                                 SelectedItem="{Binding SelectedProduct, Mode=TwoWay}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Border BorderBrush="#CCCCCC"
+                                            BorderThickness="1"
+                                            CornerRadius="6"
+                                            Padding="10"
+                                            Margin="0,0,0,8">
+                                        <Grid ColumnDefinitions="3*,1.5*,1.5*,2*">
+                                            <TextBlock Grid.Column="0"
+                                                       Text="{Binding Name}"
+                                                       FontWeight="Bold" />
+                                            <TextBlock Grid.Column="1"
+                                                       Text="{Binding Quantity, StringFormat=Количество: {0}}" />
+                                            <TextBlock Grid.Column="2"
+                                                       Text="{Binding Price, StringFormat=Цена: {0} ₽}" />
+                                            <TextBlock Grid.Column="3"
+                                                       Text="{Binding Category, StringFormat=Категория: {0}}" />
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </ScrollViewer>
+    </DockPanel>
+</Window>
